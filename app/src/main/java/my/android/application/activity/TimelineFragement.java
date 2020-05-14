@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import my.android.application.activity.R;
 
-public class SettingFragement extends Fragment {
+public class TimelineFragement extends Fragment {
 
     @Nullable
     @Override
