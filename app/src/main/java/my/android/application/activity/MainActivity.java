@@ -15,12 +15,19 @@ public class MainActivity extends AppCompatActivity {
 	
 	private FragmentManager fragmentManager = getSupportFragmentManager();
 
-	private HomeFragement home = new HomeFragement();
-
+	// 1 
 	private TimelineFragement timeline = new TimelineFragement();
 	
-	private Mp3Fragement mp3 = new Mp3Fragement();
+	// 2
+	private HomeFragement home = new HomeFragement();
 
+	// 3
+	private Mp3Fragement mp3 = new Mp3Fragement();
+	
+	// 4
+	private LolFragement lol = new LolFragement();
+
+	// 5
 	private SettingFragement setting = new SettingFragement();
 	
     @Override
